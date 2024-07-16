@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+.content {
+    margin: 50%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    border: none;
+    background-color: burlywood;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 8px;
+    color: whitesmoke;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: yellowgreen;
+    transition: 1s all ease-in-out;
+}
+
+input {
+    border: none;
+    padding: 16px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#pertanyaan {
+    font-size: 30px;
+}
+
+/*
+#loading {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    border-top: 8px solid burlywood;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    animation: 1s spin infinite linear;
+    display: none;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+}
+    100% {
+        transform: rotate(360deg);
+}
+}
+*/
